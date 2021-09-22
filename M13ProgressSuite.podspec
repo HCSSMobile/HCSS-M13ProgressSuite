@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "M13ProgressSuite"
-  s.version      = "1.2.9"
+  s.name         = "HCSS-M13ProgressSuite"
+  s.version      = "1.3.0"
   s.summary      = "A suite containing many tools to display progress information on iOS."
 
   s.description  = <<-DESC
@@ -23,11 +23,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     LICENSE
  }
 
-  s.author             = { "Brandon McQuilkin" => "marxon13@yahoo.com" }
+  s.author             = { "philip.waller@hcss.com" => "philip.waller@hcss.com" }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '12.0'
 
-  s.source = { :git => "https://github.com/Marxon13/M13ProgressSuite.git", :tag => "v1.2.9"}
+  s.source = { :git => "https://github.com/HCSSMobile/HCSS-M13ProgressSuite.git", :tag => "v1.3.0"}
 
   s.source_files  = 'Classes/*/*'
 
